@@ -16,7 +16,7 @@
     -fx-background-color: #2F2F2F;
 }
 
-/* Улучшенные карточки с мягкой обводкой */
+/* Карточки с мягкой обводкой */
 .card-primary {
     -fx-background-color: #2F2F2F;
     -fx-background-radius: 16;
@@ -215,7 +215,7 @@
     -fx-border-color: #ADFF2F;
 }
 
-/* Улучшенные поля ввода */
+/* Поля ввода */
 .text-field, .text-area, .combo-box, .date-picker {
     -fx-background-color: #1A1A1A;
     -fx-background-radius: 8;
@@ -296,8 +296,8 @@
 
 .combo-box .list-cell:filled:selected,
 .combo-box .list-cell:filled:hover {
-    -fx-background-color: #2F2F2F; /* тёмный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* ярко-оранжевый текст */
+    -fx-background-color: #2F2F2F;
+    -fx-text-fill: #FF8C00;
 }
 
 /* Стили для отображения выбранного значения в ComboBox */
@@ -307,7 +307,6 @@
 }
 
 /* Специальные стили для комбобоксов времени */
-/* Исправленные стили для комбобоксов времени */
 .combo-time-small {
     -fx-pref-width: 120;
     -fx-pref-height: 50;
@@ -321,16 +320,16 @@
     -fx-font-weight: bold;
 }
 
-/* Стиль для выбранного элемента - УБРАН ОРАНЖЕВЫЙ ФОН */
+/* Стиль для выбранного элемента */
 .combo-box .list-cell:filled:selected {
-    -fx-background-color: #2F2F2F; /* темный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
+    -fx-background-color: #2F2F2F;
+    -fx-text-fill: #FF8C00;
 }
 
-/* Стиль для элементов при наведении - УБРАН ОРАНЖЕВЫЙ ФОН */
+/* Стиль для элементов при наведении */
 .combo-box .list-cell:filled:hover {
-    -fx-background-color: #1A1A1A; /* темный фон при наведении */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
+    -fx-background-color: #1A1A1A;
+    -fx-text-fill: #FF8C00;
 }
 
 /* Стиль для обычных элементов */
@@ -339,7 +338,6 @@
     -fx-text-fill: #FF8C00;
 }
 
-/* Убедимся, что prompt text виден */
 .combo-box .prompt-text {
     -fx-text-fill: #888888;
 }
@@ -350,16 +348,16 @@
     -fx-border-width: 1;
 }
 
-/* Стиль для выбранного элемента в выпадающем списке - УБРАН ОРАНЖЕВЫЙ ФОН */
+/* Стиль для выбранного элемента в выпадающем списке */
 .combo-box-popup .list-cell:selected {
-    -fx-background-color: #2F2F2F; /* темный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
+    -fx-background-color: #2F2F2F;
+    -fx-text-fill: #FF8C00;
 }
 
-/* Стиль для элементов при наведении в выпадающем списке - УБРАН ОРАНЖЕВЫЙ ФОН */
+/* Стиль для элементов при наведении в выпадающем списке */
 .combo-box-popup .list-cell:hover {
-    -fx-background-color: #1A1A1A; /* темный фон при наведении */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
+    -fx-background-color: #1A1A1A;
+    -fx-text-fill: #FF8C00;
 }
 
 
@@ -397,28 +395,26 @@
     -fx-text-fill: #FF8C00;
 }
 
-/* УБРАН ОРАНЖЕВЫЙ ФОН для ячеек даты при наведении */
 .date-picker-popup .date-cell:hover {
-    -fx-background-color: #1A1A1A; /* темный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
+    -fx-background-color: #1A1A1A;
+    -fx-text-fill: #FF8C00;
 }
 
-/* УБРАН ОРАНЖЕВЫЙ ФОН для выбранной даты */
 .date-picker-popup .date-cell:selected {
-    -fx-background-color: #2F2F2F; /* темный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
-    -fx-border-color: #FF7518; /* оранжевая обводка вместо фона */
+    -fx-background-color: #2F2F2F;
+    -fx-text-fill: #FF8C00;
+    -fx-border-color: #FF7518;
     -fx-border-width: 1.5;
 }
 
-/* Улучшенная таблица */
+/* Таблица */
 .table-view {
     -fx-background-color: transparent;
     -fx-border-width: 1.5;
     -fx-border-color: linear-gradient(to bottom, #FF7518, #FF8C00);
     -fx-border-radius: 12;
     -fx-font-size: 14px;
-    -fx-max-width: infinity; /* Растягивает таблицу на всю ширину */
+    -fx-max-width: infinity;
 }
 
 .table-view .column-header-background {
@@ -452,11 +448,10 @@
     -fx-background-color: #1A1A1A;
 }
 
-/* УБРАН ОРАНЖЕВЫЙ ФОН для выбранной строки таблицы */
 .table-view .table-row-cell:selected {
-    -fx-background-color: #2F2F2F; /* темный фон вместо оранжевого */
-    -fx-text-fill: #FF8C00; /* оранжевый текст */
-    -fx-border-color: #32CD32; /* зеленая обводка для выделения */
+    -fx-background-color: #2F2F2F;
+    -fx-text-fill: #FF8C00;
+    -fx-border-color: #32CD32;
     -fx-border-width: 1.5;
 }
 
@@ -469,7 +464,7 @@
 }
 
 .table-view .table-row-cell:selected .table-cell {
-    -fx-text-fill: #FF8C00; /* оранжевый текст вместо черного */
+    -fx-text-fill: #FF8C00;
 }
 
 /* Счетчик задач */
